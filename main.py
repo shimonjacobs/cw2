@@ -123,7 +123,7 @@ if __name__ == "__main__":
         name_insert = []
 
         for ref in refs:
-            success, bounding_box = detector.dtect_object(target, ref, Imagebase, result)
+            success, bounding_box = detector.detect_object(target, ref, Imagebase, result)
             if success:
                 name_insert.append(ref["name"])
                 print(f"Bounding box coordinates for {ref['name']}: {bounding_box}")
