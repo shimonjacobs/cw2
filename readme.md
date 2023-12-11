@@ -1,13 +1,7 @@
 # Classification
 
-**contributors:**
-- Shimon Jacobs
-- Nastaran Keramati
-- Safinaz Khalil
-- Nadia Khodai
-
 ### Overview
-This program can detect objects in an image
+This program can detect objects in an image. The user provides a training image, and then a series of query images. THe program will detect the items in the query images.
 
 ### prerequisites
 the following libraries need to be installed:
@@ -34,6 +28,16 @@ python3 /directorypath/ready_for_submission2.py
 replacing "my directorypath" with the directory path to your file
 
 you will be propted with 
->>>Enter the number of images you want to use:
+>Enter the number of images you want to use:
 
+enter the number and you will be prompted with
 
+>enter the first image
+
+enter the name of the query image e.g `query_image_1.jpg`
+
+**contributors:**
+- Shimon Jacobs
+- Nastaran Keramati
+- Safinaz Khalil
+- Nadia Khodai
