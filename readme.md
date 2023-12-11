@@ -1,10 +1,10 @@
 # Classification
 
 **contributors:**
-- shimon jacobs
-- nastaran 
-- safinaz
-- nadia
+- Shimon Jacobs
+- Nastaran Keramati
+- Safinaz Khalil
+- Nadia Khodai
 
 ### Overview
 This program can detect objects in an image
