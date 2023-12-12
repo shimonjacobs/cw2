@@ -45,10 +45,10 @@ the program will list all images in the images folder and then prompt you to sel
 enter the id of the training images you would like to use, seperated by a space, or leave it empty to use all:
 ```
 
-to run it on all images, just press enter. If you want to see it run on images 2 and 4 for instance enter the following
+to run it on all images, just press enter. If you want to see it run on images 1 and 3 for instance, enter the following:
 
 ```
-2 4
+1 3
 ```
 
 The program will then return a list of coordinates of the detected object.
