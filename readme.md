@@ -16,13 +16,13 @@ python3 -m pip install -U pip
 python3 -m pip install -U matplotlib
 python3 -m pip install -U opencv-contrib-python
 ```
->Note: Alternatively try replacing `python3` with `python` or `py` depending on your system
+>**Note:** Alternatively try replacing `python3` with `python` or `py` depending on your system
 
 ### Using the program 
 
 First you must put all images required in the images folder. Name the base image `base.jpg`
 
->NOTE: the base image must be called `base.jpg`
+>**NOTE:** the base image must be called `base.jpg`
 
 To use the program, run the following in your terminal
 
@@ -31,7 +31,7 @@ python3 /directorypath/main.py
 ```  
 replacing "my directorypath" with the directory path to your file
 
->Note: Alternatively try replacing `python3` with `python` or `py` depending on your system
+>**Note:** Alternatively try replacing `python3` with `python` or `py` depending on your system
 
 
 
