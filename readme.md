@@ -22,7 +22,7 @@ python3 -m pip install -U opencv-contrib-python
 
 First you must put all images required in the images folder. Name the base image `base.jpg`
 
->**NOTE:** the base image must be called `base.jpg`
+>**Note:** the base image must be called `base.jpg`
 
 To use the program, run the following in your terminal
 
