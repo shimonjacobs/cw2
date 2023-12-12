@@ -20,7 +20,9 @@ Alternatively try replacing `python3` with `python` or `py` depending on your sy
 
 ### Using the program 
 
-First you must put all images required in the images folder. Name the training image `train.jpg`
+First you must put all images required in the images folder. Name the base image `base.jpg`
+
+>NOTE: the base image must be called `base.jpg`
 
 To use the program, run the following in your terminal
 
@@ -37,7 +39,7 @@ the program will list all images in the images folder and then prompt you to sel
 2. img2.jpg
 3. img3.jpg
 
-enter the id of images you would like to use, seperated by a space, or leave it empty to use all:
+enter the id of the training images you would like to use, seperated by a space, or leave it empty to use all:
 ```
 
 to run it on all images, just press enter. If you want to see it run on images 2 and 4 for instance enter the following
