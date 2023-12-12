@@ -7,14 +7,14 @@ class SiftConfigurator:
     def __init__(self):
         self.sift = cv2.xfeatures2d.SIFT_create()
 
-class MatcherConfigurator:
+class MatcherConfigurator(SiftConfigurator):
     def __init__(self):
         super().__init__()
         self.FLANN_INDEX_KDTREE = 0
         self.index_params = dict(algorithm=self.FLANN_INDEX_KDTREE, trees=5)
         self.search_params = dict(checks=80)
 
-class ObjectDetector:
+class ObjectDetector(MatcherConfigurator):
     def __init__(self):
         super().__init__()
 
