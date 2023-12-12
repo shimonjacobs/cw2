@@ -1,7 +1,7 @@
 # Object Classifier
 
 ### Overview
-This program can detect objects in an image. The user provides training images, and then a base image. THe program will detect the items from the training images in the base images.
+This program can detect objects in an image. The user provides training images, and then a base image. The program will detect the items from the training images in the base images.
 
 ### prerequisites
 the following libraries need to be installed:
