@@ -30,8 +30,15 @@ python3 /directorypath/main.py
 
 replacing "my directorypath" with the directory path to your file
 
-the program will list all images in the images fomlder and then propt with:
->enter the id of images you would like to use, seperated by a space, or leave it empty to use all:
+the program will list all images in the images folder and then prompt you to select:
+
+```
+1. img1.jpg
+2. img2.jpg
+3. img3.jpg
+
+enter the id of images you would like to use, seperated by a space, or leave it empty to use all:
+```
 
 to run it on all images, just press enter. If you want to see it run on images 2 and 4 for instance enter the following
 
