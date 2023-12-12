@@ -19,22 +19,27 @@ python3 -m pip install -U opencv-python
 Alternatively try replacing `python3` with `python` or `py` depending on your system
 
 ### Using the program 
-To use this program, run the following in your terminal
+
+First you must put all images required in the images folder. Name the training image `train.jpg`
+
+To use the program, run the following in your terminal
 
 ```
-python3 /directorypath/ready_for_submission2.py
+python3 /directorypath/main.py
 ```  
 
 replacing "my directorypath" with the directory path to your file
 
-you will be propted with 
->Enter the number of images you want to use:
+the program will list all images in the images fomlder and then propt with:
+>enter the id of images you would like to use, seperated by a space, or leave it empty to use all:
 
-enter the number and you will be prompted with
+to run it on all images, just press enter. If you want to see it run on images 2 and 4 for instance enter the following
 
->enter the first image
+```
+2 4
+```
 
-enter the name of the query image e.g `query_image_1.jpg`
+The program will then return a list of coordinates of the detected object.
 
 **contributors:**
 - Shimon Jacobs
