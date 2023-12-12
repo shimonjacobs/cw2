@@ -76,7 +76,7 @@ def correct_file_type(file):
     
 
 if __name__ == "__main__":
- #   try:
+   try:
         print("Enter the number of images you want to use:")
         try:
             no_of_images = int(input())
@@ -129,7 +129,6 @@ if __name__ == "__main__":
                 print(f"Bounding box coordinates for {ref['name']}: {bounding_box}")
 
         result_displayer.display_result(result, target["name"], name_insert)
-  #  except Exception as err:
-   #     print("Something was wrong with your image file. Please ensure you have the correct image and try again")
-   #     exit()
-
+   except Exception as err:
+       print("Something was wrong with your image file. Please ensure you have the correct image and try again")
+       exit()
