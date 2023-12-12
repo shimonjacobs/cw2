@@ -51,7 +51,7 @@ to run it on all images, just press enter. If you want to see it run on images 1
 1 3
 ```
 
-The program will then return a list of coordinates of the detected object.
+The program will then return a series of images displaying the matching, as well as a list of coordinates of the detected object.
 
 **contributors:**
 - Shimon Jacobs
