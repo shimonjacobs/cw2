@@ -34,6 +34,7 @@ replacing "my directorypath" with the directory path to your file
 >Note: Alternatively try replacing `python3` with `python` or `py` depending on your system
 
 
+
 the program will list all images in the images folder and then prompt you to select:
 
 ```
