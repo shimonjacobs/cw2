@@ -27,7 +27,7 @@ First you must put all images required in the images folder. Name the base image
 To use the program, run the following in your terminal
 
 ```
-python3 /directorypath/main.py
+python3 /_directorypath_/main.py
 ```  
 
 replacing "my directorypath" with the directory path to your file
